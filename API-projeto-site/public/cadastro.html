@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams | Cadastro</title> <!-- título da aba! -->
+    <link rel="stylesheet" href="./css/cadastro.css"> <!-- linkando com o css correspondente! -->
+    <link rel="icon" href="./imagens/icone .jpg"> <!-- imagem do icone da aba! -->
+    <script src="funcoes.js"></script>
+</head>
+
+<!-- início da página! -->
+
+<body>
+    <!-- início da header! -->
+    <div class="div_header">
+        <div class="div_caixa">
+
+            <img class="" src="imagens/foto_header.png" alt="">
+
+            <div class="pesquisa">
+                <form class="d-flex">
+                    <input class="form-control-2 input" type="search" placeholder="Pesquise aqui!" aria-label="Search">
+                    <button class="btn-pesquisa" type="submit">
+                        <img src="imagens/lupa.png" class="pesquisa-icone" alt="Lupa para pesquisar">
+                    </button>
+                </form>
+            </div>
+
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="./cardapio.html">
+                        <li>CARDÁPIO</li>
+                    </a>
+                    <a href="./cadastro.html">
+                        <li class="cor_lista">CADASTRO</li>
+                    </a>
+                    <a href="./login.html">
+                        <li>LOGIN</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- fim da header! -->
+
+    <!-- início da barra/linha! -->
+    <div class="div_barra"></div>
+    <!-- fim da barra/linha! -->
+
+    <!-- início do formulário de cadastro! -->
+    <div class="div_fundo">
+        <div class="div_corpo">
+            <div class="div_mensagem">
+                <h1 style="background-color: white;" class="h1_enfasê">Quer receber novidades e fazer suas
+                    encomendas?<br></h1>
+            </div>
+
+            <div class="div_cadastro">
+                <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+                    <p class="p_titulo"><u>CADASTRA-SE!</u></p>
+
+                <p class="p_titulo_campo">nome:</p> <br>
+                <input class="input_cadastro" type="text" name="nome" id="ipt_nome" placeholder="Digite aqui seu nome!"
+                    onkeyup="validar_nome()">
+
+                <div class="div_validar" id="div_validar_nome"></div>
+
+                <p class="p_titulo_campo">login:</p> <br>
+                <input class="input_cadastro" type="email" name="login" id="ipt_email" placeholder="Digite aqui seu email!"
+                    onkeyup="validar_email()">
+
+                <div class="div_validar" id="div_validar_email"></div>
+
+                <p class="p_titulo_campo">senha:</p> <br>
+                <input class="input_cadastro" type="password" name="senha" id="ipt_senha" placeholder="Digite aqui uma senha!"
+                    onkeyup="validar_senha()">
+
+                <div class="div_validar" id="div_validar_senha"></div>
+
+                <br>
+
+                <!-- <button class="bt_cadastrar">
+                    <p class="p_cadastrar">CADASTRAR</p>
+                </button> -->
+
+                <input type="submit" id="btn_entrar" value="Cadastrar" class="bt_cadastrar">
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <!-- fim do formulário de cadastro! -->
+
+    <!-- início da barra/linha2! -->
+    <div class="div_barra2"></div>
+    <!-- fim da barra/linha2! -->
+
+    <!-- início do footer! -->
+    <div class="div_footer">
+        <img class="img_footer" src="imagens/foto_header.png" alt="">
+
+        <nav>
+            <ul class="ul1">
+                <a href="./index.html">
+                    <li class="li1">HOME</li>
+                </a>
+                <a href="./cardapio.html">
+                    <li class="li1">CARDÁPIO</li>
+                </a>
+                <a href="./cadastro.html">
+                    <li class="cor_lista" class="li1">CADASTRO</li>
+                </a>
+                <a href="./login.html">
+                    <li class="li1">LOGIN</li>
+                </a>
+                <link rel="stylesheet" href="./login.html">
+            </ul>
+        </nav>
+
+        <span>
+            <p class="p_footer">Rua Nilo Peçanha, 54 - CEP: 09540-830 - São Caetano do Sul - SP - Copyright © 2021</p>
+        </span>
+
+        <span>
+            <img class="img_sombra" src="imagens/sombra.png" alt="">
+
+            <img class="img_boloo"
+                src="imagens/bolo_footer.jpg" alt="">
+        </span>
+    </div>
+    <!-- fim do footer! -->
+</body>
+
+<!-- fim da página! -->
+
+</html>
+
+<!-- início do script para validação de campos! -->
+<script>
+    // início da validação de nome!
+    // function validar_nome() {
+    //     var nomes = ipt_nome.value;
+
+    //     if (nomes.length > 3) {
+    //         div_validar_nome.innerHTML = '';
+    //     } else {
+    //         div_validar_nome.innerHTML = `<span style="color: white;">
+    //             Mínimo 3 caracteres!</span>`
+    //     }
+    // }
+    // fim da validação de nome!
+
+    // início da validação de email!
+    // function validar_email() {
+    //     var emails = ipt_email.value;
+
+    //     if (emails.indexOf('@') && emails.indexOf('.') > -1) {
+    //         div_validar_email.innerHTML = '';
+    //     } else {
+    //         div_validar_email.innerHTML = `<span style="color: white;">
+    //             Deve conter @ e .</span>`;
+    //     }
+    // }
+    // fim da validação de email!
+
+    // início da validação de senha!
+    // function validar_senha() {
+    //     var senhas = ipt_senha.value;
+
+    //     if (senhas.length > 6 && senhas.indexOf('!') > -1 ||
+    //         senhas.indexOf('@') > -1 ||
+    //         senhas.indexOf('*') > -1 ||
+    //         senhas.indexOf('_') > -1) {
+    //         div_validar_senha.innerHTML = '';
+    //     } else {
+    //         div_validar_senha.innerHTML = `<span style="color: white;">
+    //             Mínimo 6 caracteres!<br> 
+    //             Mínimo um caracter especial: ! @ *</span>`;
+    //     }
+    // }
+    // fim da validação de senha!
+
+    function cadastrar() {
+        var formulario = new URLSearchParams(new FormData(form_cadastro));
+        fetch("/usuarios/cadastrar", {
+            method: "POST",
+            body: formulario
+        }).then(function (response) {
+            
+            if (response.ok) {
+
+                window.location.href= './login.html';
+
+            } else {
+
+                console.log('Erro de cadastro!');
+                response.text().then(function (resposta) {
+                    div_erro.innerHTML = resposta;
+                });
+                finalizar_aguardar();
+            }
+        });
+
+        return false;
+    }
+
+    // function aguardar() {
+    //     btn_entrar.disabled = true;
+    //     // img_aguarde.style.display='block';
+    //     div_erro.style.display='none';
+    // }
+
+    // function finalizar_aguardar() {
+    //     btn_entrar.disabled = false;
+    //     // img_aguarde.style.display='none';
+    //     div_erro.style.display='block';
+    // }
+</script>
+<!-- fim do script para validação de campos! -->

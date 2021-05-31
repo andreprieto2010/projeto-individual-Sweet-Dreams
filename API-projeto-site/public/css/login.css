@@ -1,0 +1,288 @@
+/* início da página! */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* início da header! */
+
+.div_header {
+    background-color: rgba(238, 171, 171, 1);
+    width: 100%;
+    height: 80px;
+}
+
+.div_caixa {
+    height: 100%;
+    max-width: 1186px;
+    margin-left: 122px;
+}
+
+.div_header img {
+    float: left;
+    height: 63px;
+    width: 180px;
+    padding-top: 10px;
+}
+
+.pesquisa {
+    background-color: #fff;
+    border-radius: 30rem;
+    height: 40px;
+    padding: .20rem .75rem;
+    max-width: 342px;
+    margin-left: 203px;
+    margin-top: 17px;
+    float: left;
+    margin-right: revert;
+}
+
+.form-control-2 {
+    width: 275px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 15px;
+}
+
+.input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-pesquisa {
+    background-color: transparent;
+    padding: 3px 0.5rem;
+    border-color: transparent;
+}
+
+.pesquisa .pesquisa-icone {
+    height: 25px;
+    width: 25px;
+    margin: -3px;
+    padding-top: 4px;
+}
+
+.ipt_pesquisa {
+    width: 270px;
+    height: 41px;
+    margin: 17px 0 0 254px;
+    display: inline;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.bt_pesquisar {
+    height: 41px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    padding-top: 33px;
+    margin-left: 823px;
+    font-size: 12px;
+}
+
+ul li {
+    color: #000000;
+    display: inline;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.cor_lista {
+    color: white;
+}
+
+/* fim da header! */
+
+/* início da barra/linha! */
+
+.div_barra {
+    background-color: rgba(123, 26, 26, 1);
+    height: 5px;
+    width: 100%;
+}
+
+/* fim da barra/linha! */
+
+/* início do formulário de login! */
+
+.div_fundo {
+    height: 950px;
+    background-image: url(./img/bolinhas.jpg);
+    background-size: contain;
+    background-repeat: round;
+}
+
+.div_mensagem {
+    margin: 0 0 0 0;
+    padding: 28px 0 0 0;
+}
+
+.h1_enfasê {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.div_login {
+    background-color: black;
+    height: 608px;
+    width: 644px;
+    border-radius: 50px;
+    margin: 0 0 0 351px;
+    padding: 0 0 0 0;
+}
+
+.p_titulo {
+    color: white;
+    padding: 44px 0 0 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.p_titulo_campo {
+    color: #EEABAB;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 0px;
+    padding: 20px 0 0 130px;
+}
+
+.input_login {
+    height: 50px;
+    width: 400px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: 0px 0 0 11px;
+    margin: 0px 0 0 123px;
+}
+
+.bt_login {
+    background-color: #EEABAB;
+    height: 71px;
+    width: 263px;
+    border-radius: 40px;
+    border: none;
+    padding: 0 0 0 0;
+    margin: 58px 0 0 191px;
+}
+
+.p_login {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 3px 2px 0 0;
+    margin: 0 0 0 0;
+}
+
+.div_validar {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 12px;
+    padding: 6px 0 0 0;
+}
+
+/* fim do formulário de login! */
+
+/* início da barra/linha2! */
+
+.div_barra2 {
+    background-color: #000000;
+    height: 8px;
+    width: 100%;
+}
+
+/* fim da barra/linha2! */
+
+/* início do footer! */
+
+.div_footer {
+    height: 266px;
+    width: 100%;
+    background-color: #EEABAB;
+    position: relative;
+}
+
+.img_footer {
+    float: left;
+    height: 78px;
+    width: 210px;
+    padding: 85px 0 0 122px;
+}
+
+.ul1 {
+    list-style: none;
+    font-size: 12px;
+    word-spacing: 80px;
+    float: left;
+    margin: 75px 0 0 79px;
+
+}
+
+.ul1 .li1 {
+    color: #000000;
+    display: inline;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.img_sombra {
+    float: left;
+    padding: -1px 0 0 198px;
+    margin: -2px 0 0 106px;
+    height: 268px;
+}
+
+.img_boloo {
+    float: left;
+    height: 266px;
+    width: 178px;
+    padding: 0 0 0 0px;
+    margin: 0px 0 0 -160px;
+}
+
+.p_footer {
+    /* margin: 0px 0px 0 -544px;
+    padding: 212px 0px 0 0px; */
+    text-align: center;
+    float: left;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    z-index: 9999;
+}
+
+/* fim do footer! */
+
+/* início da configuração "linkar"! */
+
+a {
+    text-decoration: none;
+}
+
+/* fim da configuração "linkar"! */
+
+/* fim da página! */

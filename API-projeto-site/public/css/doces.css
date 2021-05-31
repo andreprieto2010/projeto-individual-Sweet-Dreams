@@ -1,0 +1,431 @@
+/* início da página! */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* início da header! */
+
+.div_header {
+    background-color: rgba(238, 171, 171, 1);
+    width: 100%;
+    height: 80px;
+}
+
+.div_caixa {
+    height: 100%;
+    max-width: 1186px;
+    margin-left: 122px;
+}
+
+.div_header img {
+    float: left;
+    height: 63px;
+    width: 180px;
+    padding-top: 10px;
+}
+
+.pesquisa {
+    background-color: #fff;
+    border-radius: 30rem;
+    height: 40px;
+    padding: .20rem .75rem;
+    max-width: 342px;
+    margin-left: 203px;
+    margin-top: 17px;
+    float: left;
+    margin-right: revert;
+}
+
+.form-control-2 {
+    width: 275px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 15px;
+}
+
+.input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-pesquisa {
+    background-color: transparent;
+    padding: 3px 0.5rem;
+    border-color: transparent;
+}
+
+.pesquisa .pesquisa-icone {
+    height: 25px;
+    width: 25px;
+    margin: -3px;
+    padding-top: 4px;
+}
+
+.ipt_pesquisa {
+    width: 270px;
+    height: 41px;
+    margin: 17px 0 0 254px;
+    display: inline;
+    float: left;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.bt_pesquisar {
+    height: 41px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+    padding-top: 33px;
+    margin-left: 823px;
+    font-size: 12px;
+}
+
+ul li {
+    color: #000000;
+    display: inline;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.cor_lista {
+    color: white;
+}
+
+/* fim da header! */
+
+/* início da barra/linha! */
+
+.div_barra {
+    background-color: rgba(123, 26, 26, 1);
+    height: 5px;
+    width: 100%;
+}
+
+/* fim da barra/linha! */
+
+/* início do corpo ênfase! */
+
+.div_ênfase {
+    width: 100%;
+    height: 635px;
+    background: #FEE1E1;
+}
+
+.img_fundo {
+    height: 550px;
+    margin: 0 -549px -12px 0;
+}
+
+.div_ênfase img {
+    height: 550px;
+}
+
+.div_ênfase h1 {
+    display: inline;
+    float: right;
+    padding: 30px 220px 0 0;
+}
+
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 108px;
+    color: #000000;
+}
+
+.span_barra1 {
+    background-color: #000000;
+    height: 8px;
+    width: 430px;
+    display: inline;
+    float: right;
+    margin: 170px -425px 0 0
+}
+
+.span_logotipo {
+    display: inline;
+    float: right;
+    width: 523px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 47px;
+    text-align: right;
+    margin: -322px 200px 0 0;
+}
+
+.span_confira {
+    display: inline;
+    float: right;
+    width: 630px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: right;
+    color: #000000;
+    margin: -140px 198px 0 0;
+}
+
+.div_ênfase .img_seta {
+    height: 75px;
+    margin: -85px 398px 0 0;
+    display: inline;
+    float: right;
+}
+
+/* fim do corpo ênfase! */
+
+/* início da barra/linha2! */
+
+.div_barra2 {
+    background-color: #000000;
+    height: 8px;
+    width: 100%;
+}
+
+/* fim da barra/linha2! */
+
+/* início dos tópicos! */
+
+.div_tópicos {
+    width: 100%;
+    height: 650px;
+    background: #7B1A1A
+}
+
+.div_caixa1 {
+    padding-top: 50px;
+    height: 250px;
+}
+
+.div_tópicos .div_caixa1 .preparo {
+    width: 200px;
+    float: left;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 172px;
+}
+
+.div_tópicos .div_caixa1 .confeito {
+    width: 200px;
+    float: left;
+    text-align: center;
+    margin-right: 60px;
+    margin-left: 110px;
+}
+
+.div_tópicos .div_caixa1 .bolo {
+    width: 200px;
+    float: left;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.imagem {
+    width: 250px;
+}
+
+.p_padrão {
+    padding: 0 0 0 0px;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    height: 166px;
+    width: 266px;
+    margin: 49px 0 0 -6px;
+}
+
+/* fim dos tópicos! */
+
+/* início da barra/linha3! */
+
+.div_barra3 {
+    background-color: #000000;
+    height: 8px;
+    width: 100%;
+}
+
+/* fim da barra/linha3! */
+
+/* início da biografia! */
+
+.div_bio {
+    background-color: white;
+    height: 650px;
+    width: 100%;
+}
+
+.div_bio h1 {
+    display: inline;
+    float: right;
+    padding: 42px 306px 0 0;
+}
+
+h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 108px;
+    color: #000000;
+}
+
+.span_barra2 {
+    background-color: #000000;
+    height: 8px;
+    width: 287px;
+    display: inline;
+    float: right;
+    margin: 192px -283px 0 0;
+}
+
+.div_bio .img_maria {
+    height: 300px;
+    width: 300px;
+    margin: 177px 0px 0 193px;
+    float: left;
+}
+
+.span_bio {
+    display: inline;
+    float: right;
+    width: 500px;
+    padding: 40px 190px 0px 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+}
+
+/* fim da biografia! */
+
+/* início da barra/linha4! */
+
+.div_barra4 {
+    background-color: #000000;
+    height: 8px;
+    width: 100%;
+}
+
+/* fim da barra/linha4! */
+
+.div_itens {
+    background-color: #7B1A1A;
+}
+.div_avaliação {
+   
+    width: 400px;
+    height: 230px;
+   
+    margin: 0 0 0 226px;
+    padding: 119px 0 0 0;
+}
+
+.div_estrelas {
+    margin: 0 0 0 127px;
+}
+
+.div_mapa {
+       /* height: 194px; */
+       width: 400px;
+       float: right;
+       margin: -302px 198px 0 0;
+       padding: 0 0 0 0;
+}
+
+.p_mapa {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: white;
+}
+/* início do footer! */
+
+.div_footer {
+    height: 266px;
+    width: 100%;
+    background-color: #EEABAB;
+    position: relative;
+}
+
+.img_footer {
+    float: left;
+    height: 78px;
+    width: 210px;
+    padding: 85px 0 0 122px;
+}
+
+.ul1 {
+    list-style: none;
+    font-size: 12px;
+    word-spacing: 80px;
+    float: left;
+    margin: 75px 0 0 79px;
+}
+
+.ul1 .li1 {
+    color: #000000;
+    display: inline;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.img_sombra {
+    float: left;
+    margin: -2px 0 0 106px;
+    height: 268px;
+}
+
+.img_bolo {
+    float: left;
+    height: 266px;
+    width: 178px;
+    padding: 0 0 0 0px;
+    margin: 0px 0 0 -160px;
+}
+
+.p_footer {
+    /* margin: 0px 0px 0 -544px;
+    padding: 212px 0px 0 0px; */
+    text-align: center;
+    float: left;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    z-index: 9999;
+}
+
+/* fim do footer! */
+
+/* início da configuração "linkar"! */
+
+a {
+    text-decoration: none;
+}
+
+/* fim da configuração "linkar"! */
+
+/* fim da página! */

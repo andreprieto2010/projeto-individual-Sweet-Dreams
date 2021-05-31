@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams | Cardápio</title> <!-- título da aba! -->
+    <link rel="stylesheet" href="./css/cardapio.css"> <!-- linkando com o css correspondente! -->
+    <link rel="icon" href="./imagens/icone .jpg"> <!-- imagem do icone da aba! -->
+    <script src="home.js"></script> <!-- likando o javascript para o slideshow! -->
+</head>
+
+<!-- início da página! -->
+
+<body>
+    <!-- início da header! -->
+    <div class="div_header">
+        <div class="div_caixa">
+
+            <img class="" src="imagens/foto_header.png" alt="">
+
+            <div class="pesquisa">
+                <form class="d-flex">
+                    <input class="form-control-2 input" type="search" placeholder="Pesquise aqui!" aria-label="Search">
+                    <button class="btn-pesquisa" type="submit">
+                        <img src="imagens/lupa.png" class="pesquisa-icone" alt="Lupa para pesquisar">
+                    </button>
+                </form>
+            </div>
+
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="./cardapio.html">
+                        <li class="cor_lista">CARDÁPIO</li>
+                    </a>
+                    <a href="./cadastro.html">
+                        <li>CADASTRO</li>
+                    </a>
+                    <a href="./login.html">
+                        <li>LOGIN</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- fim da header! -->
+
+    <!-- início da barra/linha! -->
+    <div class="div_barra"></div>
+    <!-- fim da barra/linha! -->
+
+    <!-- início do cardápio! -->
+    <div class="div_cardapio">
+        <span>
+            <img class="img_bolo" src="imagens/bolo_vermelho.png" alt="">
+        </span>
+
+        <span>
+            <h1>Cardápio</h1>
+            <span class="span_barra1"></span>
+        </span>
+
+        <span>
+            <img class="img_torta" src="imagens/torta.png" alt="">
+        </span>
+
+        <div class="div_caixa1">
+            <div class="div_bolo">
+                <div class="div_bolos">
+                    <h1 class="h1_bolo">Bolos</h1>
+                </div>
+
+                <br><br>
+
+                <ul class="ul_bolo">
+                    <li class="li_bolo">Banana.............................R$9,90</li><br><br>
+                    <li class="li_bolo">Cenoura...........................R$9,90</li><br><br>
+                    <li class="li_bolo">Chocolate........................R$9,90</li><br><br>
+                    <li class="li_bolo">Coco................................R$9,90</li><br><br>
+                    <li class="li_bolo">Fubá................................R$9,90</li><br><br>
+                    <li class="li_bolo">Laranja............................R$9,90</li><br><br>
+                    <li class="li_bolo">Limão..............................R$9,90</li><br><br>
+                </ul>
+
+            </div>
+
+            <div class="div_bolo_recheado">
+                <div class="div_recheado">
+                    <h1 class="h1_recheado">Bolos Recheados</h1>
+                </div>
+
+                <br><br>
+
+                <ul class="ul_recheado">
+                    <li class="li_recheado">Chocolate c/doce de leite................................R$19,90</li>
+                    <br><br>
+                    <li class="li_recheado">Chocolate c/prestigío......................................R$19,90</li>
+                    <br><br>
+                    <li class="li_recheado">Fubá c/goiabada..............................................R$19,90</li>
+                    <br><br>
+                    <li class="li_recheado">Pão de ló c/abacaxi.........................................R$19,90</li>
+                    <br><br>
+                    <li class="li_recheado">Pão de ló c/chantilly........................................R$19,90</li>
+                    <br><br>
+                    <li class="li_recheado">Red Velvet.......................................................R$29,90
+                    </li><br><br>
+                    <li class="li_recheado">Toalha Felpuda................................................R$19,90</li>
+                    <br><br>
+                </ul>
+
+            </div>
+
+            <div class="div_torta">
+                <div class="div_tortas">
+                    <h1 class="h1_torta">Tortas</h1>
+                </div>
+
+                <br><br>
+
+                <ul class="ul_torta">
+                    <li class="li_torta">Abacaxi..........................R$29,90</li><br><br>
+                    <li class="li_torta">Alemã.............................R$29,90</li><br><br>
+                    <li class="li_torta">Chico Balanceado..........R$29,90</li><br><br>
+                    <li class="li_torta">Holandesa......................R$29,90</li><br><br>
+                    <li class="li_torta">Limão.............................R$29,90</li><br><br>
+                    <li class="li_torta">Maçã..............................R$29,90</li><br><br>
+                    <li class="li_torta">Morango.........................R$29,90</li><br><br>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- fim do cardápio! -->
+
+    <!-- início da barra/linha1! -->
+    <div class="div_barra1"></div>
+    <!-- fim da barra/linha1! -->
+
+    <!-- início do slideshow! -->
+    <div class="div_slide_show">
+        <span>
+            <h1 class="h1_galeria">Galeria</h1>
+            <span class="span_barra2"></span>
+        </span>
+
+        <div class="contençao">
+            <div id="imageBg"></div>
+            <div class="anterior" onclick="anterior()"><b><</b>
+            </div>
+            <div class="proximo" onclick="proximo()"><b>></b></div>
+        </div>
+
+        <nav>
+            <ul id="botoes">
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
+
+        <script type="text/javascript" src="home.js"></script>
+    </div>
+    <!-- fim do slideshow! -->
+
+    <!-- início da barra/linha2! -->
+    <div class="div_barra2"></div>
+    <!-- fim da barra/linha2! -->
+
+    <!-- início do footer! -->
+    <div class="div_footer">
+        <img class="img_footer" src="imagens/foto_header.png" alt="">
+
+        <nav>
+            <ul class="ul1">
+                <a href="./index.html">
+                    <li class="li1">HOME</li>
+                </a>
+                <a href="./cardapio.html">
+                    <li class="cor_lista" class="li1">CARDÁPIO</li>
+                </a>
+                <a href="./cadastro.html">
+                    <li class="li1">CADASTRO</li>
+                </a>
+                <a href="./login.html">
+                    <li class="li1">LOGIN</li>
+                </a>
+            </ul>
+        </nav>
+
+        <span>
+            <p class="p_footer">Rua Nilo Peçanha, 54 - CEP: 09540-830 - São Caetano do Sul - SP - Copyright © 2021</p>
+        </span>
+
+        <span>
+            <img class="img_sombra" src="imagens/sombra.png" alt="">
+
+            <img class="img_boloo"
+                src="imagens/bolo_footer.jpg" alt="">
+        </span>
+    </div>
+    <!-- fim do footer! -->
+</body>
+
+<!-- fim da página! -->
+
+</html>
